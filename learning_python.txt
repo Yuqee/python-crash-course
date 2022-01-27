@@ -1,0 +1,6 @@
+In Python you can create lists.
+In Python you can using loops to show all the items inside a list.
+In Python you can use key and value pairs to store values.
+In Python you can make object to repersent real life objects.
+In Python you can make web applications.
+In Python you can apply billions of modlues written by other programmers.
