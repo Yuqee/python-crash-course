@@ -10,6 +10,6 @@ with open('favorite_number.json', 'w') as f:
 # Reader
 # import json
 
-# with open('favorite_number.json') as f:
-#     favorite_number = json.load(f)
-#     print(f"I know your favorite num! It's {favorite_number}")
+with open('favorite_number.json') as f:
+    favorite_number = json.load(f)
+    print(f"I know your favorite num! It's {favorite_number}")

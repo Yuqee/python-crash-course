@@ -12,5 +12,9 @@ def print_all(msgs):
 msgs = ['I', 'love', 'Python']
 sent_messages = []
 send_messages(msgs, sent_messages)
+
+print('msgs:')
 print_all(msgs)
+
+print('sent_messages:')
 print_all(sent_messages)

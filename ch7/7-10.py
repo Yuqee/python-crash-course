@@ -1,12 +1,14 @@
-# 7-10. No Pastrami
-sandwich_orders = ['poboy', 'Pastrami', 'muffuletta', 'Pastram', 'clubhouse', 'Pastram', 'reuben', 'grilled', 'Pastram', 'meat']
-finished_sandwiches = []
+# 7-10. Dream Vacation
+polling = {}
+prompt = "If you could visit one place in the world, where would you go?"
 
-while sandwich_orders:
-    curr_sanwich = sandwich_orders.pop()
-    finished_sandwiches.append(curr_sanwich)
-    print(f"\nI made your {curr_sanwich} sandwich.")
+while True:
+    name = input("Please enter your name: ")
+    place = input(prompt)
+    active = input("Would you like another person to take this poll? (y/n)")
+    polling[name] = place
+    if(active == "n"):
+        break
 
-print("I have made these sandwiches today:")
-for sandwich in finished_sandwiches:
-    print(sandwich)
+for name, place in polling.items():
+    print(f"{name.title()} would like to visit {place.title()}.")

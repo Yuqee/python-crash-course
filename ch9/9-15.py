@@ -1,5 +1,6 @@
 # 9-15. Lottery Analysis
-# from random import choice
+
+from random import choice
 
 poll = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'a', 'b', 'g', 'n', 'w']
 my_ticket = [2, 'a', 6, 3]
